@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{74acd31d-9096-497d-83db-2a724aa8d4f6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external">
+      <UniqueIdentifier>{4c617cf8-0646-43e6-b979-cda3d2e2c5b0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ysl_math">
+      <UniqueIdentifier>{5688f9c3-4300-4c0c-b6d9-37c3f6541590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{1f8e38d4-7998-4613-b591-1f31867b13a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\engine">
+      <UniqueIdentifier>{df499eb9-ef6c-4959-b1eb-be05fc90224b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\renderable">
+      <UniqueIdentifier>{e93cbfa9-7591-4dbb-b2f3-14364d973253}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="external\imgui">
+      <UniqueIdentifier>{89b35bb2-747c-4c20-a394-eefcd2bbe001}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="texture.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="material.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="camera.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="ysl_tracer.cpp">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="scene.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="sphere.cpp">
+      <Filter>src\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="aabb.cpp">
+      <Filter>src\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="bvh_node.cpp">
+      <Filter>src\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="rect.cpp">
+      <Filter>src\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="obox.cpp">
+      <Filter>src\renderable</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_demo.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_draw.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_glfw.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_impl_opengl3.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_tables.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="external\imgui\imgui_widgets.cpp">
+      <Filter>external\imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="ysl_window.cpp">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="ysl_engine.cpp">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="glad\src\glad.c">
+      <Filter>external</Filter>
+    </ClCompile>
+    <ClCompile Include="pdf.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="shader_man.cpp">
+      <Filter>src\engine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="texture.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_stb_image.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_math\color.h">
+      <Filter>ysl_math</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_math\math_lib.h">
+      <Filter>ysl_math</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_math\matrix.h">
+      <Filter>ysl_math</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_math\trig.h">
+      <Filter>ysl_math</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_math\util.h">
+      <Filter>ysl_math</Filter>
+    </ClInclude>
+    <ClInclude Include="external\stb_image.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="material.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ray.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="hit_result.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="camera.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="scene.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_math\vect.h">
+      <Filter>ysl_math</Filter>
+    </ClInclude>
+    <ClInclude Include="timer.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_math\types.h">
+      <Filter>ysl_math</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_window.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_engine.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_tracer.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="material_man.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="renderable.h">
+      <Filter>src\renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="collision.h">
+      <Filter>src\renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="ysl_math\common.h">
+      <Filter>ysl_math</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imconfig.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_glfw.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_opengl3.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_internal.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_rectpack.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_textedit.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imstb_truetype.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="external\imgui\imgui_impl_opengl3_loader.h">
+      <Filter>external\imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="render_world.h">
+      <Filter>src\renderable</Filter>
+    </ClInclude>
+    <ClInclude Include="external\stb_image_write.h">
+      <Filter>external</Filter>
+    </ClInclude>
+    <ClInclude Include="pdf.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="shader_man.h">
+      <Filter>src\engine</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="shaders\quadfs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\quadvs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\ray_tracer.glsl">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="shaders\rt_fs.glsl">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
